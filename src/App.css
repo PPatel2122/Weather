@@ -1,0 +1,153 @@
+* {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./assets/image.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    width: 30%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #1111114f;
+    position: absolute;
+    top: 18%;
+    left: 55%;
+   
+    
+    box-shadow: 10px 10px 10px 2px #000000;
+}
+
+.Weather {
+    color: white;
+}
+
+.WeatherForm {
+    margin: 10px 0px;
+}
+
+.City {
+    width: 75%;
+    padding: 4px;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.Button {
+    width: 20%;
+    cursor: pointer;
+    background-color: #133969c4;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.error {
+    background-color: #133969c4;
+    margin: 10px 0px;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.WeatherRe {
+    background-color: #aca8cf92;
+    padding: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.first {
+    display: flex;
+    gap: 20px;
+}
+
+.Cityimg {
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/City.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.Parcity {
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 90%;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.TempImg {
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/Sun.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.descritionimg {
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/Description.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.Humidityimg {
+    width: 25px;
+    height: 25px;
+    background-image: url(./assets/Humidity.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.Windimg {
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/Wind.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        padding: 20px;
+    }
+
+    .mainPardiv {
+        width: 60%;
+    }
+
+    .CityInput {
+        font-size: 14px;
+    }
+
+    .SearchButton {
+        font-size: 14px;
+    }
+
+    .error {
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+}
